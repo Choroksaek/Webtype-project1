@@ -86,3 +86,18 @@ p {
     font-size: 1.38vw;
     line-height: 2.08vw;
 }
+
+h4 {
+    font-family: 'Courier Prime', monospace;
+    font-weight: 400;
+    font-size: 1.38vw;
+    line-height: 2.08vw;
+}
+
+/* here is mobile design */
+
+@media screen (max-width: 500px) {
+    body{
+
+    }
+}
