@@ -1,0 +1,85 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 1.11vw;
+    grid-row-gap: 0px;
+    margin-left: 1.39vw;
+    margin-right: 1.39vw;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+    }
+
+.logo {
+    position: fixed;
+    margin-right: 17.8vw;
+    margin-left: 72.2vw;
+    align-items: right;
+    margin-top: -3vh;
+}
+
+.header {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+}
+
+.paragraph {
+    grid-column-start: 3;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    margin-bottom: 2.78vw;
+}
+
+.fasd {
+    width: 25vw;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, .1);
+}
+
+.img1 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    width: 25vw;
+}
+
+h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 4.17vw;
+    line-height: 5vw;
+}
+
+h2 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 1.67vw;
+    line-height: 2.08vw;
+}
+
+h3 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2.08vw;
+}
+
+figcaption {
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 0.97vw;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    font-size: 1.8vw;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 1.38vw;
+    line-height: 2.08vw;
+}
