@@ -1,0 +1,460 @@
+body {
+    position: relative;
+    margin: 0 0;
+    display:grid;
+    grid-template-columns: 1fr 160px;
+}
+
+.bg-color {
+    grid-column: 1;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    z-index: -2;
+  /* here needs fix */
+}
+
+.container {
+    grid-column: 1;
+    margin-left: 1.39vw;
+    margin-right: 1.39vw;
+    margin-top: 0px;
+    margin-bottom: 9.8vh;
+}
+
+/* Navigation */
+
+.nav-container {
+    grid-column: 2;
+    font-family: 'IBM Plex Mono'; 
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 100px;
+    display: flex;
+    align-items: right;
+    text-align: center;
+}
+
+.intro {
+    grid-column: 2;
+    position: fixed;
+    padding: 12px 56px;
+    margin-left: -60px;
+    box-shadow: 2px -4px 4px rgba(0, 0, 0, .1);
+    transition: 0.2s ease-out;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px 10px 0px 0px;
+
+    transform: rotate(90deg);
+}
+
+.chap2 {
+    position: fixed;
+    grid-column: 2;
+    margin-top: 178px;
+    padding: 12px;
+    min-width: 144px;
+    margin-left: -41px;
+    box-shadow: 2px -4px 4px rgba(0, 0, 0, .1);
+    transition: 0.2s ease-out;
+
+    background: #e2e3e7;
+    border: 1px solid #000000;
+    border-radius: 10px 10px 0px 0px;
+    border-style: inset;
+
+    transform: rotate(90deg);
+}
+
+.chap3 {
+    position: fixed;
+    grid-column: 2;
+    margin-top: 360px;
+    padding: 12px 20px;
+    min-width: 128px;
+    margin-left: -21px;
+    box-shadow: 2px -4px 4px rgba(0, 0, 0, .1);
+    transition: 0.2s ease-out;
+
+    background: #c4c4c4;
+    border: 1px solid #000000;
+    border-radius: 10px 10px 0px 0px;
+
+    transform: rotate(90deg);
+}
+
+.chap4 {
+    position: fixed;
+    grid-column: 2;
+    margin-top: 542px;
+    padding: 12px 20px;
+    min-width: 128px;
+    margin-left: -1px;
+    box-shadow: 2px -4px 4px rgba(0, 0, 0, .1);
+    transition: 0.2s ease-out;
+
+    background: #767676;
+    border: 1px solid #000000;
+    border-radius: 10px 10px 0px 0px;
+
+    transform: rotate(90deg);
+}
+
+
+/* lines */
+
+.lines {
+    grid-column: 2;
+    z-index: -1;
+}
+
+.line1 {
+    display: flex;
+    position: fixed;
+    width: 1px;
+    height: 120vh;
+    top: -8px;
+    padding-right: 20px;
+
+    border: 1px solid #000000;
+}
+
+.line2 {
+    display: flex;
+    position: fixed;
+    width: 1px;
+    height: 120vh;
+    top: -8px;
+    padding-right: 40px;
+
+    border: 1px solid #000000;
+}
+
+.line3 {
+    display: flex;
+    position: fixed;
+    width: 1px;
+    height: 120vh;
+    top: -8px;
+    padding-right: 60px;
+
+    border: 1px solid #000000;
+}
+
+/* contents */
+
+.header {
+    grid-column: 1;
+    margin: auto;
+    margin-bottom: 7vh;
+    max-width: 692px;
+}
+
+.paragraph {
+    grid-column: 1;
+    margin: auto;
+    margin-bottom: 7vh;
+    max-width: 692px;
+}
+
+.fasd {
+    width: 370px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, .1);
+}
+
+.img1 {
+    grid-column: 1;
+    margin: auto;
+    width: 370px;
+    margin-bottom: 7vh;
+}
+
+
+/* from here is type settings */
+
+h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+figcaption {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h4 {
+    font-family: 'Courier Prime', monospace;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* hover effects */
+
+a:link, a:visited {
+    color: #000;
+    text-decoration: none; }
+
+a.intro:hover {
+
+    padding: 18px 56px;
+    text-decoration: none;
+    margin-left: -54px;
+    margin-top: -6px;
+}
+
+a.chap2:hover {
+
+    margin-top: 172px;
+    padding:18px 12px;
+    margin-left: -35px;
+}
+
+a.chap3:hover {
+
+    margin-top: 354px;
+    padding: 18px 20px;
+    margin-left: -15px;
+}
+
+a.chap4:hover {
+
+    margin-top: 536px;
+    padding: 18px 20px;
+    margin-left: 5px;
+}
+
+/* here is mobile design */
+
+@media only screen and (max-width: 644px) {
+
+    body {
+        position: relative;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        overflow-x: none;
+    }
+
+    .container {
+        margin: 0 16px;
+        margin-top: 72px;
+        position: relative;
+    }
+    
+    .nav-container {
+        grid-column: 1;
+        font-family: 'IBM Plex Mono'; 
+        font-weight: 700;
+        font-size: 12px;
+        display: block;
+        position: fixed;
+        margin: 0 auto;
+        height: 72px;
+        width: 100vw;
+        text-align: center;
+        background: white;
+        border-bottom-style: solid;
+        z-index: 99;
+    }
+
+    .intro {
+        position: fixed;
+        padding: 16px 30px;
+        box-shadow: none;
+        margin-left: none;
+        width: 46px;
+        left: 80px;
+        top: 23px;
+
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        border-radius: 5px 5px 0px 0px;
+        z-index: 4;
+    
+        transform: rotate(0deg);
+    }
+    
+    .chap2 {
+        position: fixed;
+        margin-top: 0;
+        padding: 4px 12px;
+        min-width: 19vw;
+        max-width: 19vw;
+        min-height: 30px;
+        margin-left: none;
+        box-shadow: none;
+        left: 36.41vw;
+        top: 31px;
+    
+        background: #e2e3e7;
+        border: 1px solid #000000;
+        border-radius: 5px 5px 0px 0px;
+        z-index: 3;
+
+        transform: rotate(0deg);
+    }
+    
+    .chap3 {
+        position: fixed;
+        margin-top: 72px;
+        padding: 4px 16px;
+        min-width: 15vw;
+        max-width: 15vw;
+        margin-left: none;
+        box-shadow: none;
+        left: 52.3vw;
+        top: -41px;
+        z-index: 2;
+    
+        background: #c4c4c4;
+        border: 1px solid #000000;
+        border-radius: 5px 5px 0px 0px;
+    
+        transform: rotate(0deg);
+    }
+    
+    .chap4 {
+        position: fixed;
+        margin-top: 72px;
+        padding: 12px 12px;
+        min-width: 21vw;
+        max-width: 21vw;
+        margin-left: none;
+        box-shadow: none;
+        left: 67.7vw;
+        top: -41px;
+        z-index: 1;
+    
+        background: #767676;
+        border: 1px solid #000000;
+        border-radius: 5px 5px 0px 0px;
+    
+        transform: rotate(0deg);
+    }
+
+    .lines {
+        grid-column: 2;
+        z-index: -1;
+        display: none!important;
+    }
+    
+    .header {
+        margin: auto;
+        margin-bottom: 4.8vh;
+        margin-top: 60px;
+        max-width: 692px;
+    }
+    
+    .paragraph {
+        margin: auto;
+        margin-bottom: 4.8vh;
+        max-width: 692px;
+    }
+    
+    .fasd {
+        width: 50vw;
+        max-width: 370px;
+        box-shadow: 2px 4px 4px rgba(0, 0, 0, .1);
+    }
+    
+    .img1 {
+        margin: 0 auto;
+        width: 50vw;
+        max-width: 370px;
+        margin-bottom: 8.3vh;
+    }
+
+
+    h1 {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 44px;
+    }
+    
+    h2 {
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    figcaption {
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    p {
+        font-family: 'Barlow', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    h4 {
+        font-family: 'Courier Prime', monospace;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    a.intro:hover {
+        
+        padding: 18px 56px;
+        text-decoration: none;
+        margin-left: none;
+        margin-top: -6px;
+    }
+    
+    a.chap2:hover {
+    
+        margin-top: none;
+        padding:18px 12px;
+        margin-left: none;
+    }
+    
+    a.chap3:hover {
+    
+        margin-top: none;
+        padding: 18px 20px;
+        margin-left: none;
+    }
+    
+    a.chap4:hover {
+    
+        margin-top: none;
+        padding: 18px 20px;
+        margin-left: none;
+    }
+
+}
