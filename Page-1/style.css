@@ -76,7 +76,7 @@ body {
     padding: 12px 20px;
     min-width: 128px;
     margin-left: -21px;
-    box-shadow: 2px -4px 4px rgba(0, 0, 0, .1);
+    box-shadow: 4px -4px 4px rgba(0, 0, 0, .1);
     transition: 0.2s ease-out;
 
     background: #c4c4c4;
@@ -162,7 +162,7 @@ body {
 
 .fasd {
     width: 370px;
-    box-shadow: 2px 4px 4px rgba(0, 0, 0, .1);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .1), -2px -2px 8px rgba(0, 0, 0, .1);
 }
 
 .img1 {
