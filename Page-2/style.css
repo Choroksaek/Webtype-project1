@@ -264,7 +264,9 @@ a:link, a:visited {
     color: #000;
     text-decoration: none; }
 
-a.intro:hover {
+@media (hover: hover){
+
+    a.intro:hover {
 
     padding: 18px 56px;
     margin-left: 8px;
@@ -291,7 +293,7 @@ a.chap4:hover {
     padding: 18px 20px;
     margin-left: -15px;
 }
-
+}
 /* here is mobile design */
 
 @media only screen and (max-width: 644px) {

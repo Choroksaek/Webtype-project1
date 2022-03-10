@@ -222,35 +222,37 @@ a:link, a:visited {
     color: #000;
     text-decoration: none; }
 
-a.intro:hover {
+@media (hover: hover){
+
+    a.intro:hover {
 
     padding: 18px 56px;
     text-decoration: none;
     margin-left: -54px;
     margin-top: -6px;
-}
+    }
 
-a.chap2:hover {
+    a.chap2:hover {
 
     margin-top: 172px;
     padding:18px 12px;
     margin-left: -35px;
-}
+    }
 
-a.chap3:hover {
+    a.chap3:hover {
 
     margin-top: 354px;
     padding: 18px 20px;
     margin-left: -15px;
-}
+    }
 
-a.chap4:hover {
+    a.chap4:hover {
 
     margin-top: 536px;
     padding: 18px 20px;
     margin-left: 5px;
+    }
 }
-
 /* here is mobile design */
 
 @media only screen and (max-width: 644px) {
@@ -427,34 +429,4 @@ a.chap4:hover {
         font-size: 14px;
         line-height: 24px;
     }
-
-    a.intro:hover {
-        
-        padding: 18px 56px;
-        text-decoration: none;
-        margin-left: none;
-        margin-top: -6px;
-    }
-    
-    a.chap2:hover {
-    
-        margin-top: none;
-        padding:18px 12px;
-        margin-left: none;
-    }
-    
-    a.chap3:hover {
-    
-        margin-top: none;
-        padding: 18px 20px;
-        margin-left: none;
-    }
-    
-    a.chap4:hover {
-    
-        margin-top: none;
-        padding: 18px 20px;
-        margin-left: none;
-    }
-
 }
